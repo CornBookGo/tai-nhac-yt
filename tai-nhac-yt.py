@@ -2,7 +2,7 @@ import yt_dlp
 import tkinter as tk
 from tkinter import messagebox, filedialog
 import os
-# Phải tải và đặt "ffmpeg" vào Path của Envolusion giống như Python.
+# Phải tải và đặt "ffmpeg" vào Path của Environment giống như Python.
 
 def choose_directory():
     folder = filedialog.askdirectory()
@@ -62,4 +62,5 @@ download_btn = tk.Button(root, text="Tải nhạc", font=("Arial", 12), command=
 download_btn.pack(pady=20)
 
 root.mainloop()
+
 
